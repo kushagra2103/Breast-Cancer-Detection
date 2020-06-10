@@ -3,6 +3,7 @@ INTRODUCTION
 It is a classification problem in machine learning. Data is provided having 10 features. I have used 5 different classsification algorithms and compared their predictions. I have used Jupyter framework while working on this project. I have used sklearn, numpy, pandas, matplotlb libraries to assist me in visualizing my results.
 
 DATASET
+
 The data has been got from the  following url = "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
 The dataset used in this story is publicly available and was created by Dr. William H. Wolberg, physician at the University Of Wisconsin Hospital at Madison, Wisconsin, USA.
 
@@ -21,7 +22,8 @@ It has 10 features:
 Here the class variable is the target variable. Our objective is to predict whether the given sample malignant or benign. It is a binary classification problem. 
 
 Missing values are being ignored by replacing the " ? " with "-99999",python will ignore these values
-Usin Scatter matrix, we find that there is linear relationship between uniform_cell_size and uniform_cell_shape. Apart from that, for every values of independent variables, class variable is taking all the values so not a particular independent variable is deciding the class variable. 
+
+Using Scatter matrix, we find that there is linear relationship between uniform_cell_size and uniform_cell_shape. Apart from that, for every values of independent variables, class variable is taking all the values so not a particular independent variable is deciding the class variable. 
 
 For training and validation, dataset is splitted into 80/20 ratio. 
 
