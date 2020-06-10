@@ -33,6 +33,7 @@ Five different algorithms have been used to classifyabove problem.
 5. Random Forest 
 
 TRAINING 
+
 Here is the training accuracy for these models
 KNN: 0.957045 
 SVM: 0.647597 
@@ -42,7 +43,7 @@ Random_forest: 0.958864
 
 We see that SVM dosent fit well while random forest and KNN fits well
 
-Testing Resutls 
+TESTING
 
 KNN
 0.9857142857142858
