@@ -8,16 +8,25 @@ The data has been got from the  following url = "https://archive.ics.uci.edu/ml/
 The dataset used in this story is publicly available and was created by Dr. William H. Wolberg, physician at the University Of Wisconsin Hospital at Madison, Wisconsin, USA.
 
 It has 10 features:  
-'clump_thickness' :  
-'uniform_cell_size', 
-'uniform_cell_shape',
-'marginal_adhesion',
-'single_epithelial_size',
-'bare_nuclei',
-'bland_chromatin',
-'normal_nucleoli',
-'mitoses',
-'class'
+clump_thickness
+
+uniform_cell_size
+
+uniform_cell_shape
+
+marginal_adhesion
+
+single_epithelial_size
+
+bare_nuclei
+
+bland_chromatin
+
+normal_nucleoli
+
+mitoses
+
+class
 
 Here the class variable is the target variable. Our objective is to predict whether the given sample malignant or benign. It is a binary classification problem. 
 
