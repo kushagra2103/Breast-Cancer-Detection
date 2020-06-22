@@ -113,4 +113,4 @@ Random_forest
 weighted avg       0.98      0.98      0.98       140
 
  We see that KNN and logistic regression performs really well having F1score of 0.99. 
- PS: F1 score is 2 (Precision * Recall)/ (Precision + recall). It is better as it takes into account both recall and precison values.
+ PS: F1 score is 2 (Precision * Recall)/ (Precision + recall). It is better as it takes into account both recall and precison values thus reducing the bias of either 
